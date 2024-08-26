@@ -1,0 +1,49 @@
+.InputContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.InputArea {
+  width: 92%;
+  border-radius: 15px;
+  background-color: #44475a;
+  padding-top: 6px;
+  padding-bottom: 4px;
+}
+
+.Input {
+  margin-left: 15px;
+  outline: none;
+  padding: 0;
+  background-color: none;
+  display: block;
+  max-width: 97%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  resize: none;
+  font-size: 15px;
+  max-height: 100px;
+  min-height: 20px;
+}
+
+.Input::-webkit-scrollbar {
+  width: 8px;
+}
+
+.Input::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #ffffff18;
+}
+
+.SendIcon {
+  color: #ffffff2f;
+  cursor: pointer;
+}
+
+.SendIcon:hover {
+  color: #bd93f9;
+}

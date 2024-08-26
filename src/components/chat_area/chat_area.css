@@ -1,0 +1,18 @@
+.ChatAreaContainer {
+  height: 470px;
+  margin: 15px;
+  overflow-y: scroll;
+  flex: 1 0 auto;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.ChatAreaContainer::-webkit-scrollbar {
+  width: 8px;
+  background-color: none;
+}
+
+.ChatAreaContainer::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #ffffff18;
+}
